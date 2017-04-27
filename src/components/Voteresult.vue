@@ -123,14 +123,14 @@ export default {
   width:0.5rem;
 }
 .block2{
-  width:0.85rem;
+  width:1.1rem;
 }
 .block3{
   color: red;
 }
 .block4{
   text-align: left;
-  width:3.3rem;
+  width:2.9rem;
   overflow-x: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -164,5 +164,6 @@ export default {
   line-height: 0.65rem;
   width: 100%;
   border-bottom: 1px solid #B9BAB9;
+  font-size: 14px;
 }
 </style>

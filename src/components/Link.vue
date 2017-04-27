@@ -99,5 +99,6 @@ a{
   line-height: 0.7rem;
   width: 100%;
   border-bottom: 1px solid #B9BAB9;
+  font-size: 14px;
 }
 </style>
