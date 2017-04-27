@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # toupiao
 
 > A Vue.js project
@@ -28,3 +29,6 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+#huashangvote
+>>>>>>> d6b4f9c024c35ce4ec349bcf5cd1fa1c421055b2
