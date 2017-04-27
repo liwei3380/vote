@@ -19,6 +19,7 @@
               <div class="title-block block3">{{item.votes}}</div>
             </li>
           </ul>
+        <img src="../assets/more-button.png" @click=tomore class="button">
         <img src="../assets/activityinstructions.png" class="activityinstructions">
         <div class="instructions">
           <p>1、投票时间即日起截至4月25日15:00；</p>
@@ -67,6 +68,9 @@ export default {
         Indicator.close();
         console.log(err)
       })
+    },
+    tomore () {
+      /*window.location.href = "http://www.baidu.com"*/
     }
   }
 }
@@ -99,8 +103,8 @@ export default {
 }
 .list-title{
   margin-top: 5px;
-  height: 0.55rem;
-  line-height: 0.55rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
   width: 100%;
   background: #EAEBEA;
   border-bottom: 1px solid #B9BAB9;
@@ -156,8 +160,8 @@ export default {
   margin-top: 15px;
 }
 .list-li{
-  height: 0.55rem;
-  line-height: 0.55rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
   width: 100%;
   border-bottom: 1px solid #B9BAB9;
 }

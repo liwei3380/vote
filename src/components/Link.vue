@@ -49,6 +49,7 @@ export default {
   height: 0.24rem;
   background: url('../assets/cb-n.png');
   background-size: cover;
+  margin-top: 0.22rem;
 }
 .shownext{
   display: inline-block;
@@ -77,12 +78,15 @@ a{
   text-align: center;
   float: left;
   width:0.65rem;
-  height: 0.55rem;
+  height: 0.65rem;
   padding: 0 0.05rem;
 }
 .block4{
   width:3.5rem;
   text-align: left;
+}
+.block2{
+  font-size: 14px;
 }
 .block1,.block2{
   width:0.5rem;
@@ -91,8 +95,8 @@ a{
   width:0.85rem;
 }
 .list-li{
-  height: 0.55rem;
-  line-height: 0.55rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
   width: 100%;
   border-bottom: 1px solid #B9BAB9;
 }

@@ -38,6 +38,7 @@ import Mlink from './Link'
 import axios from 'axios'
 import items from '../js/voteitems'
 import myconfig from '../js/config'
+import {Toast} from 'mint-ui'
 
 export default {
   name: 'hello',
@@ -67,7 +68,10 @@ export default {
     submit(){
       let target = this.value.toString();
       if (this.value.length == 0) {
-        alert('请投票')
+        Toast({
+          message:'请投票',
+          duration: 1000
+        });
         return;
       }
       var vm = this;
@@ -80,14 +84,23 @@ export default {
         vm.$router.push('/voteresult')
         var result = response.data.message
         if (result == '8') {
-          alert('投票次数用完')
+          Toast({
+            message:'您今日票数已用尽',
+            duration: 1000
+          });
         } else if (result == '1') {
           /*alert('投票成功')*/
         } else if (result == '9') {
-          alert('没查到用户')
+          Toast({
+            message:'没查到用户',
+            duration: 1000
+          });
         }
       }).catch(function(err){
-        alert('请求失败');
+        Toast({
+            message:'请求失败',
+            duration: 1000
+          });
         console.log(err)
       })
     }
@@ -120,8 +133,8 @@ export default {
 }
 .list-title{
   margin-top: 5px;
-  height: 0.55rem;
-  line-height: 0.55rem;
+  height: 0.65rem;
+  line-height: 0.65rem;
   width: 100%;
   background: #EAEBEA;
   border-bottom: 1px solid #B9BAB9;
