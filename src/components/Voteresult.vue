@@ -22,7 +22,7 @@
         <img src="../assets/more-button.png" @click=tomore class="button">
         <img src="../assets/activityinstructions.png" class="activityinstructions">
         <div class="instructions">
-          <p>1、投票时间即日起截至4月25日15:00；</p>
+          <p>1、投票时间即日起截至5月8日15:00；</p>
           <p>2、恶意刷票和作弊的行为一经发现，华商基金有权取消其参赛和获奖资格；</p>
           <p>3、本次登载的持有人征文均由华商小海螺秉着公平、公开、公正的原则精选挑选。</p>
           <p>4、每人每天投票一次，每次可投三票。</p>
@@ -80,7 +80,7 @@ export default {
 <style scoped>
 .voteresult{
   width: 100%;
-  background: #31B3F4;
+  background: #5EB0C6;
 }
 .head-img{
   width: 100%;
